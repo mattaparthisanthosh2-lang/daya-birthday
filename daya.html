@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday Daya 🎂</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Background -->
+    <div class="stars"></div>
+
+    <!-- Floating hearts -->
+    <div class="floating-hearts">
+        <span>♡</span>
+        <span>♡</span>
+        <span>♡</span>
+        <span>♡</span>
+        <span>♡</span>
+    </div>
+
+
+    <!-- MUSIC BUTTON -->
+
+    <button id="musicBtn" class="music-btn">
+        ♫
+    </button>
+
+    <audio id="birthdayMusic" loop>
+        <source src="birthday.mp3" type="audio/mpeg">
+    </audio>
+
+
+    <!-- MAIN HERO -->
+
+    <section class="hero" id="hero">
+
+        <div class="hero-content">
+
+            <p class="small-title">
+                A LITTLE SURPRISE FOR
+            </p>
+
+            <h1>
+                Daya
+            </h1>
+
+            <div class="age">
+                22
+            </div>
+
+            <p class="hero-text">
+                Today isn't just another day...
+                <br>
+                It's your special day. ✨
+            </p>
+
+            <button id="startBtn" class="main-btn">
+                Open Your Birthday Surprise
+                <span>→</span>
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- BIRTHDAY CARD -->
+
+    <section class="birthday-section hidden" id="birthdaySection">
+
+        <div class="birthday-card">
+
+            <div class="card-top">
+                <span>✦</span>
+                HAPPY BIRTHDAY
+                <span>✦</span>
+            </div>
+
+
+            <div class="name">
+                Daya
+            </div>
+
+            <div class="birthday-number">
+                22
+            </div>
+
+
+            <!-- CAKE -->
+
+            <div class="cake-container">
+
+                <div class="candle candle-left">
+                    <div class="flame"></div>
+                </div>
+
+                <div class="candle candle-middle">
+                    <div class="flame"></div>
+                </div>
+
+                <div class="candle candle-right">
+                    <div class="flame"></div>
+                </div>
+
+                <div class="cake">
+
+                    <div class="cake-top"></div>
+
+                    <div class="cake-body">
+
+                        <div class="cream cream-one"></div>
+                        <div class="cream cream-two"></div>
+                        <div class="cream cream-three"></div>
+
+                    </div>
+
+                    <div class="cake-plate"></div>
+
+                </div>
+
+            </div>
+
+
+            <p class="wish">
+                Make a wish...
+            </p>
+
+            <button id="blowBtn" class="secondary-btn">
+                💨 Blow into microphone
+            </button>
+
+
+            <!-- MESSAGE -->
+
+            <div class="message-box">
+
+                <p class="message-label">
+                    A MESSAGE FOR YOU
+                </p>
+
+                <p class="message">
+                    Happy 22nd Birthday, Daya! ❤️
+                    <br><br>
+
+                    May this new chapter of your life bring
+                    you countless reasons to smile, beautiful
+                    memories to treasure, and the courage to
+                    chase every dream you have.
+
+                    <br><br>
+
+                    Keep smiling, keep shining,
+                    and always be the amazing person you are. ✨
+                </p>
+
+            </div>
+
+
+            <button id="surpriseBtn" class="main-btn">
+                One Last Surprise ❤️
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- FINAL SURPRISE -->
+
+    <section id="finalScreen" class="final-screen">
+
+        <div class="final-content">
+
+            <div class="final-glow"></div>
+
+            <p class="final-small">
+                FOR YOU, DAYA
+            </p>
+
+            <div class="final-age">
+                22
+            </div>
+
+            <h2>
+                Happy Birthday
+                <br>
+                Daya ❤️
+            </h2>
+
+            <div class="line"></div>
+
+            <p class="final-message">
+                Here's to 22 years of being you...
+                <br>
+                and to all the beautiful moments
+                still waiting for you.
+            </p>
+
+            <div class="final-icons">
+                ✦ &nbsp; ♡ &nbsp; ✦
+            </div>
+
+            <p class="final-wish">
+                May your dreams be bigger than your fears
+                and your happiness bigger than your worries.
+            </p>
+
+            <button id="closeBtn" class="close-btn">
+                Keep This Memory ♡
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONFETTI CONTAINER -->
+
+    <div id="confettiContainer"></div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
